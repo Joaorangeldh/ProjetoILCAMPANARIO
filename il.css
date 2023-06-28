@@ -3,8 +3,13 @@
     font-family:"joaoo";
     src: url(SeymourOne-Regular.ttf);}
 
+  body{
+    background-color: #f2f2f2;
+  }
+
 img{
-    height: 100px;   
+  margin: auto;
+    height: 90px;   
 }
 
 p{
@@ -39,4 +44,11 @@ h2{
 
   li{
     list-style-type: none;
+  }
+
+  div#back{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: #f2f2f2;
   }
