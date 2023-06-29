@@ -4,12 +4,13 @@
     src: url(SeymourOne-Regular.ttf);}
 
   body{
-    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5d6ff;
   }
 
 img{
   margin: auto;
-    height: 90px;   
+    height: 150px;
 }
 
 p{
@@ -25,21 +26,22 @@ h2{
 }
 
   div#principal{
-    padding-top: 230px;
+    padding-top: 20px;
   }
 
   header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    position: fixed;
+    background-color: #d5d6ff;
+    position: relative;
     top: 0;
     width: 100%;
     z-index: 999;
+    padding-bottom: 1px;
+    padding-top: 10px;
   }
 
   textarea{
     height: 200px;
-    width: 100%;
+    width: 98%;
   }
 
   li{
@@ -52,3 +54,74 @@ h2{
     width: 80%;
     background-color: #f2f2f2;
   }
+
+  a#email{
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+a:hover{
+  color: red;
+}
+
+  button{
+    padding: 10px 20px;
+    margin: 15px;
+  }
+
+        .rating {
+          unicode-bidi: bidi-override;
+          direction: rtl;
+          text-align: center;
+        }
+        
+        .rating > span {
+          display: inline-block;
+          position: relative;
+          width: 1.1em;
+          font-size: 36px;
+          color: #ccc;
+          cursor: pointer;
+        }
+        
+        .rating > span:hover:before,
+        .rating > span:hover ~ span:before {
+          content: "\2605";
+          position: absolute;
+          color: gold;
+        }
+        .social-menu {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        .social-menu li {
+          display: inline-block;
+          margin-right: 10px;
+          padding-top: 10px;
+        }
+        
+        .social-menu li:last-child {
+          margin-right: 0;
+        }
+        
+        .social-menu a {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+        }
+        
+        .social-menu img {
+          width: 100%;
+          height: 100%;
+        }
+        
+        .social-menu a:hover {
+          opacity: 0.8;
+        }
+
+        div#email{
+          padding-bottom: 20px;
+        }
+
