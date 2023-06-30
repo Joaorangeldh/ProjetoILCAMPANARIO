@@ -129,3 +129,9 @@ a:hover{
           cursor: pointer;
         }
 
+h1#title{
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.279);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.868);
+}
+
